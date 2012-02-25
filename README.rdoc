@@ -3,8 +3,10 @@ The prince XML has been downloaded from http://www.princexml.com/download/7.1/
 
 the Linux Generic 32-bit has been used
 
+== Princely Gem Used
 The princely Gem is not taken from Ruby forge as it is not updated for the rails 3 compatibility the version used is from https://github.com/mbleigh/princely.
 
+== Ruby Version for POC
 The Ruby version use for poc is ruby 1.9.3dev (2011-07-31 revision 32789) [i686-linux]
 
 == Welcome to Rails
