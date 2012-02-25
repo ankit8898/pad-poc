@@ -1,4 +1,21 @@
 
+<table class="sample" style="width: 800px; height:730px;">
+<% for user in User.all %>
+<tr>
+
+<td>
+<h1><%= user.name %><h1>
+<td>
+<td>
+<%= user.age %>
+<td>
+</tr>
+<%end%>
+</table>
+
+
+
+
 <p>
   <h1>Name:</h1>
   <%= @user.name %>

@@ -12,8 +12,12 @@
  *= require_tree .
 */
 @page { size: A4 landscape }
-
-body { color: White; background: Navy; }
+@page {
+    @bottom {
+	content: "Page " counter(page) " of " counter(pages)
+    }
+}
+body { color: White; background: gray; }
 h1 {color: navy;}
 
 table.sample {
