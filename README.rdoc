@@ -9,6 +9,13 @@ The princely Gem is not taken from Ruby forge as it is not updated for the rails
 == Ruby Version for POC
 The Ruby version use for poc is ruby 1.9.3dev (2011-07-31 revision 32789) [i686-linux]
 
+== Working on Linux-ubuntu
+
+Makde sure your $PATH includes /use/local/bin/prince.  If not update you .bashrc with
+PATH=$PATH:/usr/local/bin/prince
+export PATH
+
+Note: The Path after $PATH:<should be the same which comes after 'which prince'>
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
